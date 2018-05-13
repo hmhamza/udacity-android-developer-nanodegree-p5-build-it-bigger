@@ -57,9 +57,7 @@ Add free and paid product flavors to the app. Remove the ad (and any dependencie
 For extra practice to make my project stand out, I completed the following tasks.
 
 ##### Add Loading Indicator
-Add a loading indicator that is shown while the joke is being retrieved and disappears when the joke is ready. I followed the following tutorial:
-
-http://www.tutorialspoint.com/android/android_loading_spinner.htm
+Add a loading indicator that is shown while the joke is being retrieved and disappears when the joke is ready. I followed [this](http://www.tutorialspoint.com/android/android_loading_spinner.htm) tutorial.
 
 ---
 
