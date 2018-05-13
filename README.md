@@ -6,6 +6,16 @@ In this project, I created an app with multiple flavors that uses multiple libra
 ### Why this Project
 As Android projects grow in complexity, it becomes necessary to customize the behavior of the Gradle build tool, allowing automation of repetitive tasks. Particularly, factoring functionality into libraries and creating product flavors allow for much bigger projects with minimal added complexity.
 
+### Required Components
+- Project contains a Java library for supplying jokes
+- Project contains an Android library with an activity that displays jokes passed to it as intent extras.
+- Project contains a Google Cloud Endpoints module that supplies jokes from the Java library. Project loads jokes from GCE module via an async task. Note that this GCE module doesn't need to be deployed to a server. Local testing works fine.
+- Project contains connected tests to verify that the async task is indeed loading jokes.
+- Project contains paid/free flavors. The paid flavor has no ads, and no unnecessary dependencies.
+
+### Required Behavior
+App retrieves jokes from Google Cloud Endpoints module and displays them via an Activity from the Android Library.
+
 ### What I Learnt?
 I understood the role of Gradle in building Android Apps and how to use Gradle to manage apps of increasing complexity. I learnt how to:
 
@@ -50,3 +60,46 @@ For extra practice to make my project stand out, I completed the following tasks
 Add a loading indicator that is shown while the joke is being retrieved and disappears when the joke is ready. I followed the following tutorial:
 
 http://www.tutorialspoint.com/android/android_loading_spinner.htm
+
+---
+
+# Project Review
+
+🎉🎉🎉 Congratulations!!   
+Your submission looks great! 👏👏👏.  
+Work done in this project makes your effort apparent and I really appreciate it.
+
+I will encourage you to keep this work on in upcoming projects.  
+You have done a good job.  
+All the specifications were met correctly.
+
+Keeping a certain level of expectations from our student is crucial to your improvement, and we will not let you fall behind.
+
+My best wishes for your course and next project too  
+Have a nice day 😊👍
+
+
+### Common Project Requirements
+
+##### :heavy_check_mark: App is written solely in the Java Programming Language
+
+##### :heavy_check_mark: App utilizes stable release versions of all libraries, Gradle, and Android Studio.
+
+### Required Components
+##### :heavy_check_mark: Project contains a Java library for supplying jokes.
+
+##### :heavy_check_mark: Project contains an Android library with an activity that displays jokes passed to it as intent extras.
+
+##### :heavy_check_mark: Project contains a Google Cloud Endpoints module that supplies jokes from the Java library. Project loads jokes from GCE module via an AsyncTask.
+
+##### :heavy_check_mark: Project contains connected tests to verify that the AsyncTask is indeed loading jokes.
+
+##### :heavy_check_mark: Project contains paid/free flavors. The paid flavor has no ads and no unnecessary dependencies.    Ads are required in the free version.
+
+You have made the required changes perfectly! 👏👏
+
+
+### Required Behavior
+##### :heavy_check_mark: App retrieves jokes from Google Cloud Endpoints module and displays them via an Activity from the Android Library. Note that the GCE module need only be deployed locally.
+
+##### :heavy_check_mark: App conforms to common standards found in the [Android Nanodegree General Project Guidelines](http://udacity.github.io/android-nanodegree-guidelines/core.html).
